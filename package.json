@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "ts": "esbuild src/game.ts --bundle --minify --outfile=game.js"
+  },
+  "dependencies": {
+    "pixi.js": "^7.3.2"
+  }
+}
